@@ -1,0 +1,37 @@
+.todo {
+    justify-content: space-between;
+    
+    flex: 1;
+    
+}
+.titulos{
+    color: blue;
+    margin: 1rem;
+    
+}
+.p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.contenedor{
+    
+    display: flex;
+    
+}
+section h3{
+    font-size: 1.6rem;
+    color: blue;
+}
+section p{
+    font-size: 1.5rem;
+}
+
+section{
+    flex: 1; /* Esto hace que ocupen el mismo espacio */
+    border: 1px solid #ccc; /* Borde para visualizar las columnas */
+    height: auto;
+    width: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
